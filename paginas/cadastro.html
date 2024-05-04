@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+	
+</head>
+<body style="text-align: center;">
+	<h3>Cadastro de Cliente</h3><hr>
+	<div style="margin: auto; width: 500px;">
+		<form method="post" action="salvaAgendamento.php" class="form-group">
+			<div>
+				<label>Nome</label>
+				<input type="text" name="nome" class="form-control" required />
+			</div>
+			<div>
+				<label>WhatsApp</label>
+				<input type="text" name="telefone" class="form-control" required />
+			</div>
+			<div>
+				<label>Data de Aniversario</label>
+				<input type="date" name="data" class="form-control">				
+			</div><hr>			
+			<div>
+				<input type="submit" class="btn btn-success" value="Cadastrar" />
+				<input type="reset" class="btn btn-warning" value="Limpar">
+				<a href="../index.html" class="btn btn-danger">Voltar</a>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>
